@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset */
+
+.warp{
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+  }
+  h1{
+  font-size:80px;
+	line-height: 1.5em;
+	color: #ffff;
+  }
+  .banner{
+	   width: 100%;
+	   background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true)center center;
+	
+  }
+  .banner-item{
+	width: 304px;
+	margin: auto;
+	padding-top: 308px;
+	padding-bottom: 40px;
+	 }
+  .banner-item p{
+	color: #ffff;
+	font: 24px;
+	line-height:1.5em;
+  }
+  .banner-img{
+	display: flex;
+	justify-content: space-around;
+	width: 280px;
+	margin: auto;
+	padding-bottom: 208px;
+	}
+  .about{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	text-align: center;
+	}
+  .about h2{
+	font: 64px sans-serif;
+	font-style:italic;
+	line-height:2em;
+	text-align: center;
+  }
+  .about img{
+	width: 384px;
+	height: 384px;
+  }
+  .id-data{
+  font-style: italic;
+	color: #000;
+	font: 24px;
+	line-height:1.5em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	 width: 412px;
+	}
+  .about-item{
+	line-height:3em;
+  }
+  .red-point{
+	  font: 22px;
+	  padding-right: 10px;
+	color:#891818;
+  }
+  .mybrand{
+	background-color: #000000;
+  }
+  .mybrand-h2{
+	font: 64px sans-serif;
+	font-style:italic;
+	line-height:2em;
+	text-align: center;
+	color:#fff;
+  }
+  .mybrand p{
+	color:#ffff;
+	font: 24px;
+	line-height:1.5em;
+	text-align: center;
+	padding-bottom: 32px;
+  }
+  .mybrand-img{
+	display: flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	align-items:center;
+	padding-bottom: 160px;
+  }
+  .mybrand .img2{
+	width: 1300px;
+  margin-top: 40px;
+  }
+  .mybrand .img2 img{
+  margin: auto;  
+  padding-left: 24px;
+	
+  }
+  .other-h2{
+	font: 64px sans-serif;
+	font-style:italic;
+	line-height:2em;
+	text-align: center;
+	color:#000;
+  }
+  .other p{
+	color:#000;
+	font: 24px;
+	line-height:1.5em;
+	text-align: center;
+	padding-bottom: 32px;
+  }
+  .other-ul{
+  margin: auto;  
+  width: 1300px;
+	display: flex;
+	justify-content:center;
+	align-items:flex-start;
+	flex-wrap:wrap;
+	align-content:start;
+  }
+  li img{
+	 padding-right: 24px;
+  }
+  li p{
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 48px;
+  }
+  
+  
+  footer{
+	background: #000;
+  }
+  .footer-h2{
+	font: 64px sans-serif;
+	font-style:italic;
+	line-height:2em;
+	text-align: center;
+	color:#fff;
+  }
+  footer p{
+	color:#ffff ;
+	font: 24px sans-serif;
+	line-height:1.5em;
+	text-align: center;
+	padding-bottom: 32px;
+  }
+  
+  
+  
